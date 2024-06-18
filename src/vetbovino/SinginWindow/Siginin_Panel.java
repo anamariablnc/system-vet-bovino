@@ -180,8 +180,8 @@ public class Siginin_Panel extends JPanel {
     // Crear JComboBox para el tipo de animal
     private JComboBox type_Animal() {
         JComboBox comboBox = new JComboBox(); // Creación de JComboBox
-        comboBox.addItem("PERRO"); // Añadir opción PERRO
-        comboBox.addItem("GATO"); // Añadir opción GATO
+        comboBox.addItem("PERRO "); // Añadir opción PERRO
+        comboBox.addItem("GATO "); // Añadir opción GATO
         comboBox.setPreferredSize(new Dimension(162,25)); // Establecer tamaño preferido
         comboBox.setFont(new Font("Consolas", Font.BOLD,15)); // Establecer fuente y tamaño de texto
         comboBox.setBorder(BorderFactory.createLineBorder(Color.DARK_GRAY, 1, true)); // Añadir borde
