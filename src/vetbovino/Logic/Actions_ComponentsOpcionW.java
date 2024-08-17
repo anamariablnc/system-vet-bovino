@@ -26,7 +26,7 @@ public class Actions_ComponentsOpcionW {
                 case "PACIENTES":
                     PatientWindow pacientesW = new PatientWindow();
                     break;
-                case "<html>GESTION<br>DE CITAS</html>":
+                case "<html>AGENDAMIENTO<br>DE CITAS</html>":
                      AppointmentWindow G_C = new AppointmentWindow();
                     break;
                 case "<html>PROCEDS<br>PENDIENTES</html>":

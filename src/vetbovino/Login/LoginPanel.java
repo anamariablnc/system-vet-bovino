@@ -31,7 +31,7 @@ public class LoginPanel extends JPanel{
         JPanel panelButton2 = new JPanel();
         panelButton2.setLayout(new GridLayout(5,1,0,10));
         panelButton2.add(createButtons("PACIENTES",new ImageIcon("src/vetbovino/users.png")));
-        panelButton2.add(createButtons("<html>GESTION<br>DE CITAS</html>",new ImageIcon("src/vetbovino/gestionCitas.png")));
+        panelButton2.add(createButtons("<html>AGENDAMIENTO<br>DE CITAS</html>",new ImageIcon("src/vetbovino/gestionCitas.png")));
         panelButton2.add(createButtons("<html>PROCEDS<br>PENDIENTES</html>",new ImageIcon("src/vetbovino/procedimientosPendientes.png")));
         panelButton2.add(createButtons("<html>ESTETICA<br>PENDIENTE</html>",new ImageIcon("src/vetbovino/estetica.png") ));
         panelButton2.add(createButtons("HOSPITALIZACION",new ImageIcon("src/vetbovino/hospitalizacion.png")));
@@ -60,8 +60,8 @@ public class LoginPanel extends JPanel{
     private JButton createButtons(String title,Icon icono){
         
     JButton boton =GUIUtils.createButton(title, 300, 20, new Color(240, 187, 93), new Font("Consolas", Font.BOLD, 17),icono);
-    Actions_ComponentsOpcionW hola = new Actions_ComponentsOpcionW();
-    hola.event(boton.getText(), boton);
+    Actions_ComponentsOpcionW Action_Button = new Actions_ComponentsOpcionW();
+    Action_Button.event(boton.getText(), boton);
     
     return boton;
     }

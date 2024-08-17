@@ -1,8 +1,6 @@
 package vetbovino.Logic;
 
 
-import vetbovino.Login.LoginFrame;
-import vetbovino.SinginWindow.Singin_Window;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import javax.swing.JButton;
@@ -41,6 +39,6 @@ public class Actions_ComponentsPrincipalW {
         });
     }
     
-    // Método para manejar eventos de botones en la clase OpcionsWindow
+   
    
 }

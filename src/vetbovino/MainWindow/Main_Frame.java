@@ -23,7 +23,7 @@ public  class Main_Frame extends JFrame  {
    
 
     // Método para inicializar la configuración de la ventana principal
-    public final void initializeWindow(int CloseOpe,String title,String icono,int e) {
+    public final void initializeWindow(int CloseOpe,String title,String icono,int extendedState) {
         setVisible(true);
         setTitle(title);
         setDefaultCloseOperation( CloseOpe);
@@ -32,7 +32,7 @@ public  class Main_Frame extends JFrame  {
         setResizable(false);
         setIconImage(toolkit.getImage(icono));
         setBounds(screenSize.width / 4, screenSize.height / 4, screenSize.width / 2, screenSize.height / 2);
-        setExtendedState(e);
+        setExtendedState(extendedState);
     }
 
     // Método para agregar componentes a la ventana

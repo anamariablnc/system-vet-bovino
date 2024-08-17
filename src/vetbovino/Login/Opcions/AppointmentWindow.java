@@ -21,7 +21,7 @@ public class AppointmentWindow implements Windows{
     public void create_frame() {
 
         Main_Frame ventana = new Main_Frame();
-        ventana.initializeWindow(JFrame.HIDE_ON_CLOSE, "GESTION DE CITAS", "src/vetBovino/gestionCitas.png",JFrame.MAXIMIZED_BOTH);
+        ventana.initializeWindow(JFrame.HIDE_ON_CLOSE, "GESTION DE CITAS", "src/vetBovino/gestionCitas.png",0);
         ventana.add(create_panel());
 
     }
