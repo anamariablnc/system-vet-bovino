@@ -21,7 +21,6 @@ nbproject/project.xml
 manifest.mf
 
 # Ignorar imágenes y recursos que puedan generarse o estar en la carpeta build
-*.png
 *.jpg
 *.gif
 
